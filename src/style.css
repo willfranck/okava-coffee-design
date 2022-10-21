@@ -97,7 +97,7 @@ nav {
     display: none;
 }
 
-.search-cart-bar {
+.links-bar {
     display: flex;
     align-items: center;
     margin: 0 1.5rem;
@@ -137,16 +137,16 @@ nav {
 .page-links {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    text-align: center;
     font-size: 1.7rem;
-    padding: 0.8rem 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.page-links * {
     color: #94D2BD;
 }
 
-.page-links:hover,
-.page-links:hover i,
-.page-links:focus,
-.page-links:focus i {
+.page-links:hover *,
+.page-links:focus * {
     color: #00B4D8;
 }
 
@@ -265,7 +265,7 @@ footer {
 /*********************************/
 
 .home-page {
-    background: url(./Images/Coffees_2.jpg);
+    background: url(../src/images/Coffees_2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -292,14 +292,14 @@ footer {
     transform-origin: center;
 }
 
-.home-page-links {
+.home-page-links-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
 }
 
-.home-page-links h3:hover {
+.home-page-links:hover * {
     color: #00B4D8;
 }
 
@@ -310,7 +310,7 @@ footer {
 /*********************************/
 
 .menu-page {
-    background: url(./Images/Breakfast_Spread.jpg);
+    background: url(../src/images/Breakfast_Spread.jpg);
 }
 
 .menu-page::after {
@@ -512,7 +512,7 @@ footer {
 /*********************************/
 
 .about-page {
-    background: url(./Images/Coffees_2.jpg);
+    background: url(../src/images/Coffees_2.jpg);
     background-size: cover;
     background-position: center;
 }
