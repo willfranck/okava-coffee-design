@@ -72,6 +72,10 @@ img {
     max-width: 100%;
 }
 
+article {
+    padding: 2rem;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -159,7 +163,6 @@ main {
 }
 
 section {
-    max-height: 100%;
     z-index: 5;
 }
 
@@ -321,11 +324,6 @@ footer {
     width:100%;
     height:100%;
     background: linear-gradient(rgba(0, 18, 25, 1) 12%, rgba(0, 18, 25, 0.5) 37%, rgba(0, 18, 25, 0.5) 65%, rgba(0, 18, 25, 1) 90%);
-}
-
-.drinks-menu,
-.food-menu {
-    padding: 2rem;
 }
 
 .drinks-menu > div > p:nth-of-type(2),
@@ -533,21 +531,9 @@ footer {
     min-width: 90%;
 }
 
-.about-info,
-.map-location {
-    padding: 1rem 2rem;
-}
-
 .about-info {
     display: flex;
     flex-direction: column;
-}
-
-.okava-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
 }
 
 .map-location{
