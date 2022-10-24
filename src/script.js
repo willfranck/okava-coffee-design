@@ -38,13 +38,13 @@ menuButton.addEventListener('click', menuBarExpand);
 menuCloseButton.addEventListener('click', menuBarCollapse);
 
 function menuBarExpand() {
-    menuSlider.classList.add('side-nav-links-active');
+    menuSlider.classList.add('active');
     menuButton.style.display = 'none';
     menuCloseButton.style.display = 'block';
 }
 
 function menuBarCollapse() {
-    menuSlider.classList.remove('side-nav-links-active');
+    menuSlider.classList.remove('active');
     menuButton.style.display = 'block';
     menuCloseButton.style.display = 'none';
 }
