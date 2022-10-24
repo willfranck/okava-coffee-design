@@ -538,7 +538,7 @@ nav {
 }
 
 .map-plugin {
-    height: clamp(28rem, 55vh, 45rem);
+    height: clamp(18rem, 43vh, 30rem);
 }
 
 
@@ -553,8 +553,8 @@ nav {
         display: block;
     }
 
-    .map-plugin {
-        padding: 1rem;
+    .side-nav-links {
+        transition-duration: 0.3s;
     }
 }
 
@@ -566,13 +566,10 @@ nav {
         top: 0;
     }
 
-    .side-nav-links {
-        transition-duration: 0.3s;
-    }
-
     .menu-page-content,
     .order-page-content {
         display: flex;
+        padding: 0 4rem;
     }
 
     .about-page-content{
