@@ -36,11 +36,12 @@ const menuCloseButton = document.getElementById('menu-close-button');
 
 menuButton.addEventListener('click', menuBarExpand);
 menuCloseButton.addEventListener('click', menuBarCollapse);
-menuSlider.addEventListener('focusout', menuBarCollapse);
+menuCloseButton.addEventListener('focusout', menuBarCollapse);
 
 function menuBarExpand() {
     menuSlider.classList.add('active');
     menuButton.style.display = 'none';
+    menuCloseButton.focus()
     menuCloseButton.style.display = 'block';
 }
 
