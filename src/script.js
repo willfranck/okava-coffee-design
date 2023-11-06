@@ -41,8 +41,8 @@ menuCloseButton.addEventListener('focusout', menuBarCollapse);
 function menuBarExpand() {
     menuSlider.classList.add('active');
     menuButton.style.display = 'none';
-    menuCloseButton.focus()
     menuCloseButton.style.display = 'block';
+    menuCloseButton.focus()
 }
 
 function menuBarCollapse() {
