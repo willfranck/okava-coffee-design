@@ -36,7 +36,7 @@ const menuCloseButton = document.getElementById('menu-close-button');
 
 menuButton.addEventListener('click', menuBarExpand);
 menuCloseButton.addEventListener('click', menuBarCollapse);
-menuCloseButton.addEventListener('focusout', menuBarCollapse);
+menuSlider.addEventListener('focusout', menuBarCollapse);
 
 function menuBarExpand() {
     menuSlider.classList.add('active');
