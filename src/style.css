@@ -537,6 +537,8 @@ nav {
 
 .map-plugin {
     height: clamp(18rem, 43vh, 35rem);
+    border-radius: 0.8rem;
+    overflow: hidden;
 }
 
 
